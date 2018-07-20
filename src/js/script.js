@@ -1,9 +1,3 @@
-const pug = require('pug');
-
-
-const compileFunction = pug.compileFile('template.pug');
-
-console.log(compiledFunction({
-    name: 'Puguito'
-}));
-
+$(".botao--test").click(function(event){
+  console.log("Olá");
+});
